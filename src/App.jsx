@@ -471,7 +471,7 @@ function LandingPage({ goSupport }) {
               <Card className="rounded-[28px] border bg-white" style={{ borderColor: colors.border }}>
                 <CardContent className="p-7">
                   <div className="flex items-center gap-[6px]">
-                    <img src="/android.svg" alt="Android" className="h-[18px] w-auto" />
+                    <Smartphone size={18} strokeWidth={2.2} style={{ color: colors.primaryDark }} />
                     <h3 className="text-xl font-semibold leading-none" style={{ color: colors.text }}>Android</h3>
                   </div>
                   <p className="mt-3 leading-7" style={{ color: colors.body }}>Otvorite link u Chrome browseru i izaberite Install App ili Add to Home Screen.</p>
