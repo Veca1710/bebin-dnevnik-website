@@ -1,8 +1,11 @@
-# Bebin dnevnik website
+# Bebin dnevnik website responsive
 
-## Potrebne slike u public folderu
+Vite + React website.
+
+## Potrebni assets u public folderu
 
 - background.png
+- background-mobile.png
 - appimage.png
 - step-welcome.png
 - step-add.png
@@ -11,4 +14,4 @@
 
 ## Deploy
 
-Upload na GitHub, zatim import u Vercel.
+Upload na GitHub main branch. Vercel automatski redeployuje.
