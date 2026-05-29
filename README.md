@@ -34,3 +34,24 @@ Package verzije su fiksirane da Vercel build ne puca.
 
 - Mobile hero overlay made brighter for better text readability.
 - Mobile hero keeps raised content position and CTA nowrap fixes.
+
+
+## CTA button color update
+
+- Hero primary CTA uses `rgb(159, 174, 142)`.
+- Hero secondary CTA uses the same color for border.
+- CTA text is prevented from wrapping.
+- Social thumbnail updated to production image.
+
+
+## Primary color sync
+
+- Header logo background and CTA button colors synced to `rgb(159, 174, 142)`.
+- Secondary CTA border synced to the same primary color.
+
+
+## Primary color update
+
+- Buttons set to `rgb(159, 174, 142)`.
+- Header logo background set to `rgb(159, 174, 142)`.
+- Favicon regenerated with `rgb(159, 174, 142)`.
