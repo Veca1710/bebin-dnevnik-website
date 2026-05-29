@@ -1,6 +1,6 @@
-# Bebin dnevnik website responsive
+# Bebin dnevnik website synced
 
-Vite + React website.
+Sinhronizovana verzija za nastavak rada.
 
 ## Potrebni assets u public folderu
 
@@ -12,6 +12,13 @@ Vite + React website.
 - step-dnevnik.png
 - step-pregled.png
 
-## Deploy
+## Važno
 
-Upload na GitHub main branch. Vercel automatski redeployuje.
+Mobile hero content koristi `pt-[14vh] sm:pt-[16vh]`.
+Package verzije su fiksirane da Vercel build ne puca.
+
+
+## Latest hero desktop fix
+
+- Hero content desktop offset changed from `lg:ml-[38%]` to `lg:ml-[24%]`.
+- Hero CTA buttons now use `min-w-[240px] whitespace-nowrap` to prevent text wrapping.
