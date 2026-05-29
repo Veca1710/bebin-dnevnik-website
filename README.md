@@ -28,3 +28,9 @@ Package verzije su fiksirane da Vercel build ne puca.
 
 - Mobile hero content moved up: `pt-[6vh] sm:pt-[8vh]`.
 - Mobile hero vertical footprint reduced: `min-h-[640px]` and `pb-8 pt-24`.
+
+
+## Mobile hero brighter overlay
+
+- Mobile hero overlay made brighter for better text readability.
+- Mobile hero keeps raised content position and CTA nowrap fixes.

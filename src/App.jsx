@@ -116,7 +116,7 @@ function LandingPage({goSupport}) {
     <main>
       <section id="pocetna" className="relative min-h-screen overflow-hidden px-4 pb-8 pt-24 md:px-8 md:pb-20 md:pt-32">
         <div className="absolute inset-0 hidden bg-cover bg-center md:block" style={{backgroundImage:"linear-gradient(90deg, rgba(250,250,248,0.12) 0%, rgba(250,250,248,0.52) 34%, rgba(250,250,248,0.74) 52%, rgba(250,250,248,0.24) 100%), url('/background.png')",backgroundPosition:"12% center"}}/>
-        <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{backgroundImage:"linear-gradient(180deg, rgba(250,250,248,0.22) 0%, rgba(250,250,248,0.62) 42%, rgba(250,250,248,0.94) 78%, rgba(250,250,248,1) 100%), url('/background-mobile.png')",backgroundPosition:"center top"}}/>
+        <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{backgroundImage:"linear-gradient(180deg, rgba(250,250,248,0.62) 0%, rgba(250,250,248,0.74) 42%, rgba(250,250,248,0.94) 78%, rgba(250,250,248,1) 100%), url('/background-mobile.png')",backgroundPosition:"center top"}}/>
         <div className="absolute inset-0 hidden md:block" style={{background:"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(247,243,236,0.62) 100%)"}}/>
         <div className="relative mx-auto grid min-h-[640px] max-w-7xl items-center gap-8 md:min-h-[760px] lg:grid-cols-[1.05fr_0.95fr]">
           <motion.div initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.6}} className="mx-auto max-w-2xl pt-[6vh] text-center sm:pt-[8vh] md:pt-0 lg:ml-[24%] lg:text-left">
