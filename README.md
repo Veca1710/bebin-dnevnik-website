@@ -22,3 +22,9 @@ Package verzije su fiksirane da Vercel build ne puca.
 
 - Hero content desktop offset changed from `lg:ml-[38%]` to `lg:ml-[24%]`.
 - Hero CTA buttons now use `min-w-[240px] whitespace-nowrap` to prevent text wrapping.
+
+
+## Mobile hero update
+
+- Mobile hero content moved up: `pt-[6vh] sm:pt-[8vh]`.
+- Mobile hero vertical footprint reduced: `min-h-[640px]` and `pb-8 pt-24`.

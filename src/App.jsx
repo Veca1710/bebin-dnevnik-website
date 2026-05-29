@@ -114,12 +114,12 @@ function LandingPage({goSupport}) {
   return <div className="min-h-screen scroll-smooth" style={{backgroundColor:colors.background,color:colors.text}}>
     <Header goSupport={goSupport}/>
     <main>
-      <section id="pocetna" className="relative min-h-screen overflow-hidden px-4 pb-12 pt-28 md:px-8 md:pb-20 md:pt-32">
+      <section id="pocetna" className="relative min-h-screen overflow-hidden px-4 pb-8 pt-24 md:px-8 md:pb-20 md:pt-32">
         <div className="absolute inset-0 hidden bg-cover bg-center md:block" style={{backgroundImage:"linear-gradient(90deg, rgba(250,250,248,0.12) 0%, rgba(250,250,248,0.52) 34%, rgba(250,250,248,0.74) 52%, rgba(250,250,248,0.24) 100%), url('/background.png')",backgroundPosition:"12% center"}}/>
         <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{backgroundImage:"linear-gradient(180deg, rgba(250,250,248,0.22) 0%, rgba(250,250,248,0.62) 42%, rgba(250,250,248,0.94) 78%, rgba(250,250,248,1) 100%), url('/background-mobile.png')",backgroundPosition:"center top"}}/>
         <div className="absolute inset-0 hidden md:block" style={{background:"linear-gradient(180deg, rgba(255,255,255,0.08) 0%, rgba(247,243,236,0.62) 100%)"}}/>
-        <div className="relative mx-auto grid min-h-[720px] max-w-7xl items-center gap-8 md:min-h-[760px] lg:grid-cols-[1.05fr_0.95fr]">
-          <motion.div initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.6}} className="mx-auto max-w-2xl pt-[14vh] text-center sm:pt-[16vh] md:pt-0 lg:ml-[24%] lg:text-left">
+        <div className="relative mx-auto grid min-h-[640px] max-w-7xl items-center gap-8 md:min-h-[760px] lg:grid-cols-[1.05fr_0.95fr]">
+          <motion.div initial={{opacity:0,y:18}} animate={{opacity:1,y:0}} transition={{duration:.6}} className="mx-auto max-w-2xl pt-[6vh] text-center sm:pt-[8vh] md:pt-0 lg:ml-[24%] lg:text-left">
             <div className="mb-5 inline-flex items-center gap-3 rounded-full bg-white/50 px-4 py-2 text-sm backdrop-blur md:mb-7 md:bg-transparent md:px-0 md:py-0 md:text-base" style={{color:"#1F332B"}}><span>Jednostavno. Brzo. Za vaše najvažnije trenutke.</span><span className="flex h-7 w-7 items-center justify-center rounded-full bg-white/70 shadow-sm" style={{color:colors.primaryDark}}><HeartHandshake size={17}/></span></div>
             <h1 className="headline text-5xl font-bold leading-[0.98] tracking-[-0.04em] sm:text-6xl md:text-8xl" style={{color:"#153A2C"}}>Bebin dnevnik</h1>
             <p className="mt-6 max-w-2xl text-xl font-semibold leading-8 tracking-[-0.02em] md:mt-7 md:text-2xl md:leading-10" style={{color:"#173B2F"}}>Jednostavan način da pratite hranjenje, spavanje i svakodnevne aktivnosti vaše bebe.</p>
