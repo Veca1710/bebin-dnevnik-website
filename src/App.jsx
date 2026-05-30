@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Baby, Clock, Milk, Moon, ShieldCheck, HeartHandshake, Smartphone, HelpCircle, CheckCircle2, Droplets, Printer, Apple, Sparkles, Building2, Code2, Coffee, ArrowLeft, Menu, X } from "lucide-react";
 import "./index.css";
 
-const colors = { primary: "rgb(159, 174, 142)", primaryDark:"#6FA258", background:"#FAFAF8", cream:"#F7F3EC", sageLight:"#EEF1E8", border:"#E7E8E2", text:"#40443C", body:"#5A5E55", muted:"#94988E" };
+const colors = { primary: "rgb(159, 174, 142)", primaryDark: "rgb(159, 174, 142)", background:"#FAFAF8", cream:"#F7F3EC", sageLight:"#EEF1E8", border:"#E7E8E2", text:"#40443C", body:"#5A5E55", muted:"#94988E" };
 
 function Button({children,className="",variant="default",style={},...props}) {
   return <button className={`inline-flex items-center justify-center gap-2 font-medium transition hover:opacity-90 active:scale-[0.99] ${variant==="outline" ? "border bg-transparent" : ""} ${className}`} style={style} {...props}>{children}</button>
